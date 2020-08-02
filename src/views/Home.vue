@@ -1,26 +1,18 @@
 <template>
   <div class="bg-gray-900 h-screen">
-    <div class="flex" style="height:88vh">
-      <div class="w-56 bg-black h-full flex-none"></div>
-      <div class="w-full h-full">
-        <div class="w-full sticky top-0 p-2"></div>
-    </div>
-    </div>
-  <div class="w-full bg-green-800" style="height:12vh">
-
-  </div>
-    
+    <sidenav/>
+    <div class="w-full bg-gray-800" style="height:10vh"></div>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-
+import sidenav from '@/components/sideNav.vue'
 
 export default {
-  name: 'Home',
-  components: {
-   
+  name: "Home",
+  components:{
+    sidenav,
   }
-}
+};
 </script>
