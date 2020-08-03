@@ -49,8 +49,8 @@
           <p class="text-white text-sm font-semibold">Install App</p>
         </button>
       </div>
-      <div class="relative">
-        <img src="../assets/Kwesi-Arthur-.jpg" height="10px" alt />
+      <div class="relative pb-3">
+        <img src />
       </div>
     </div>
     <TopNav />
