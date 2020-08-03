@@ -2,7 +2,7 @@
   <div class="flex" style="height:90vh">
     <div class="w-56 bg-black h-full flex-none">
       <div class="p-6">
-        <img src="../assets/logo-01.png" alt="" />
+        <img src="../assets/logo-01.png" alt />
       </div>
       <div class="mx-2 mb-5">
         <button
@@ -20,19 +20,13 @@
         </button>
       </div>
       <div class="mx-5">
-        <h1 class="text-xs mb-3 text-white tracking-widest uppercase">
-          Playlists
-        </h1>
-        <button
-          class="flex text-white justify-start item-center opacity-75 hover:opacity-100 mb-2"
-        >
+        <h1 class="text-xs mb-3 text-white tracking-widest uppercase">Playlists</h1>
+        <button class="flex text-white justify-start item-center opacity-75 hover:opacity-100 mb-2">
           <div></div>
           <i class="material-icons mr-3">create_new_folder</i>
           <p class="text-white text-sm font-semibold">Create Playlist</p>
         </button>
-        <button
-          class="flex text-white justify-start item-center opacity-75 hover:opacity-100"
-        >
+        <button class="flex text-white justify-start item-center opacity-75 hover:opacity-100">
           <div></div>
           <i class="material-icons mr-3">stars</i>
           <p class="text-white text-sm font-semibold">Liked Songs</p>
@@ -45,22 +39,18 @@
             v-for="album in albums"
             :key="album.name"
             class="text-white hover:text-teal text-sm py-1"
-          >
-            {{ album.name }}
-          </p>
+          >{{ album.name }}</p>
         </div>
       </div>
       <div class="mx-5 pb-3">
-        <button
-          class="flex text-white justify-start item-center opacity-75 hover:opacity-100"
-        >
+        <button class="flex text-white justify-start item-center opacity-75 hover:opacity-100">
           <div></div>
           <i class="material-icons mr-3">cloud_download</i>
           <p class="text-white text-sm font-semibold">Install App</p>
         </button>
       </div>
       <div class="relative">
-        <img src="../assets/Kwesi-Arthur-album.jpg" height="10px" alt="" />
+        <img src="../assets/Kwesi-Arthur-.jpg" height="10px" alt />
       </div>
     </div>
     <TopNav />

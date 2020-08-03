@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full h-full relative">
+  <div class="w-full h-full relative overflow-y-scroll">
     <div class="w-full sticky top-0 py-4 px-6 flex item-center justify-between">
       <div class="flex item-center">
         <button class="rounded-full bg-black w-8 h8 text-white mr-3">
@@ -41,11 +41,16 @@
         </div>
       </div>
     </div>
+    <mainContents />
   </div>
 </template>
 
 <script>
+import mainContents from "@/components/mainContents.vue";
 export default {
+  components: {
+    mainContents,
+  },
   data() {
     return {
       showdropdown: false,
